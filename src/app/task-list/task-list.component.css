@@ -1,0 +1,57 @@
+.tasksList {
+    text-align: center;
+}
+.tasksList > li {
+    list-style: none;
+    width: 500px;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+}
+.importantTask {
+    color: red;
+}
+
+.view {
+    padding: 10px;
+    font-size: 16px;
+}
+.view h4 {
+    font-size: 1.3em;
+    margin:0 auto;
+}
+.view h5 {
+    margin: 0 auto;
+    font-size: 0.9em;
+    text-align: center;
+}
+.leftColumn {
+    display: block;
+    float: left;
+    text-align: center;
+}
+.rightColumn {
+    display: block;
+    text-align: center;
+}
+.tags {
+    display: block;
+    border-top: 1px #ededed dashed;
+}
+.tags p {
+    text-align: left;
+    margin: 8px 10px;
+}
+.tags > ul {
+    padding-left: 10px;
+    text-align: left;
+}
+.tags > ul > li {
+    list-style: none;
+    display: inline;
+    border: 2px solid #ededed;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.tags > ul > li:first-child {
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+<ul class="tasksList">
+    <li *ngFor="let element of tasks" >
+        <div class="view" (click)="goToTask(element.id)">
+            <h4 [class.importantTask]="element.is_high_priority">{{element.name}}</h4>
+            <h5>Общая оценка задачи: {{element.estimated_effort}}</h5>
+
+            <div class="leftColumn">
+                <p>Потрачено на задачу: {{element.actual_effort}}</p>
+            </div>
+            <div class="rightColumn">
+                <p>Дата окончания: {{element.due_date | date:"dd/MM/yyyy, hh:mm:ss"}}</p>
+            </div>
+            <div class="tags" *ngIf="element.tags">
+                <p>Tags:</p>
+                <ul >
+                    <li *ngFor="let tag of element.tags">{{tag}}</li>
+                </ul>
+            </div>
+
+        </div>
+    </li>
+</ul>
