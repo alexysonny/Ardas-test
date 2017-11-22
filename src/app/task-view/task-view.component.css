@@ -1,5 +1,26 @@
+.clear {
+    clear: both;
+}
 .element {
-    width: 500px;
+    width: 700px;
     border: 1px solid #ededed;
     border-radius: 10px;
+    font-size:16px;
+    padding: 10px;
+}
+.element h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.element button {
+    margin: 10px;
+}
+.leftColumn {
+    width: 50%;
+    float: left;
+}
+.rightColumn {
+    width: 50%;
+    float: right;
 }

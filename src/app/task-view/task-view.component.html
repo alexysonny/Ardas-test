@@ -1,5 +1,25 @@
 <div class="element">
     <h3 contenteditable="true" [textContent]="task.name" (input)="task.name = $event.target.textContent"></h3>
     <p>{{task.description}}</p>
+    <div class="clear"></div>
+    <div>
+        <div class="leftColumn">
+            <p>Дата создания: {{task.creation_date | date:"hh:mm:ss, dd/MM/yyyy"}}</p>
+            <p>Дата начала: {{task.start_date | date:"hh:mm:ss, dd/MM/yyyy"}}</p>
+            <p>Выполнить до: {{task.due_date | date:"hh:mm:ss, dd/MM/yyyy"}}</p>
+            <br>
+            <p>Идентификатор проекта: {{task.project_id}}</p>
+        </div>
+        <div class="rightColumn">
+            <p>Оценочное время: {{task.estimated_effort}}</p>
+            <p>Потрачено: {{task.actual_effort}}</p>
+            <p>Прогресс: {{task.physical_progress}}</p>
+            <br>
+            <p *ngIf="!task.is_completed">Не выполнено</p>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
     <button (click)="saveTask( task )">Save</button>
 </div>
