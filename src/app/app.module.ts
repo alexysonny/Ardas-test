@@ -7,6 +7,7 @@ import {TaskListComponent} from './task-list/task-list.component';
 import {Routes, RouterModule} from '@angular/router';
 import {TaskDataService} from './task-data.service';
 import {HttpClientModule} from '@angular/common/http';
+import { InlineEditComponent } from './inline-edit/inline-edit.component';
 
 
 const appRoutes: Routes = [
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
     declarations: [
         AppComponent,
         TaskViewComponent,
-        TaskListComponent
+        TaskListComponent,
+        InlineEditComponent
     ],
     imports: [
         BrowserModule,

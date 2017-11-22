@@ -1,2 +1,5 @@
-<p>{{task.id}}</p>
-<p>{{task.name}}</p>
+<div class="element">
+    <h3 contenteditable="true" [textContent]="task.name" (input)="task.name = $event.target.textContent"></h3>
+    <p>{{task.description}}</p>
+    <button (click)="saveTask( task )">Save</button>
+</div>

@@ -181,8 +181,8 @@
       "start_date": "2015-04-22T00:00:00Z",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 1.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 1,
+      "actual_effort": 0,
       "physical_progress": 10,
       "obj_status": "active",
       "project_id": 1
@@ -195,8 +195,8 @@
       "start_date": "2015-04-28T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 100,
       "obj_status": "active",
       "project_id": 1
@@ -209,8 +209,8 @@
       "start_date": "2015-04-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 50,
       "obj_status": "active",
       "project_id": 3
@@ -223,8 +223,8 @@
       "start_date": "2025-05-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4
@@ -237,8 +237,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": true,
       "is_archived": true,
-      "estimated_effort": 5.0,
-      "actual_effort": 5.0,
+      "estimated_effort": 5,
+      "actual_effort": 5,
       "physical_progress": 50,
       "obj_status": "active",
       "project_id": 6
@@ -251,8 +251,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 23.0,
-      "actual_effort": 15.0,
+      "estimated_effort": 23,
+      "actual_effort": 15,
       "physical_progress": 50,
       "obj_status": "trashed",
       "project_id": 5
@@ -265,8 +265,8 @@
       "start_date": "2015-04-22T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 10.0,
-      "actual_effort": 1.0,
+      "estimated_effort": 10,
+      "actual_effort": 1,
       "physical_progress": 50,
       "obj_status": "deleted",
       "project_id": 6
@@ -279,8 +279,8 @@
       "start_date": "2015-05-25T00:00:00",
       "is_completed": true,
       "is_archived": true,
-      "estimated_effort": 5.0,
-      "actual_effort": 4.0,
+      "estimated_effort": 5,
+      "actual_effort": 4,
       "physical_progress": 100,
       "obj_status": "active",
       "project_id": 6
@@ -293,8 +293,8 @@
       "start_date": "2025-05-18T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 5.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 5,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4
@@ -307,8 +307,8 @@
       "start_date": "2025-07-10T00:00:00",
       "is_completed": false,
       "is_archived": false,
-      "estimated_effort": 0.0,
-      "actual_effort": 0.0,
+      "estimated_effort": 0,
+      "actual_effort": 0,
       "physical_progress": 0,
       "obj_status": "active",
       "project_id": 4,
@@ -326,5 +326,3 @@
     }
   ]
 }
-
-
